@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "source": "^/(.*)$",
+      "target": "$1",
+      "destination": "bookshop-srv-api",
+      "csrfProtection": false,
+      "authenticationType": "xsuaa"
+    }
+  ]
+}

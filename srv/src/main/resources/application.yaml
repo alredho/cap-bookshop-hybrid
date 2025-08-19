@@ -1,0 +1,40 @@
+
+---
+spring:
+  config.activate.on-profile: default
+cds:
+  data-source.auto-config.enabled: true
+  security:
+    mock:
+      users:
+        user:
+          password: user
+          tenant: CrazyCars
+          roles:
+            - Viewer
+          attributes:
+            Country: [GER, FR]
+          additional:
+            email: myviewer@crazycars.com
+          features:
+            - cruise
+            - park
+        admin:
+          password: admin
+          privileged: true
+          features:
+            - "*"
+---
+management:
+  endpoint:
+    health:
+      show-components: always
+      probes.enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health
+  health:
+    defaults.enabled: false
+    ping.enabled: true
+    db.enabled: true
