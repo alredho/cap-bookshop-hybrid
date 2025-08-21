@@ -10,7 +10,7 @@
           "instance": "bookshop-cds-db",
           "key": "bookshop-cds-db-key"
         },
-        "kind": "hana-cloud",
+        "kind": "hana",
         "vcap": {
           "name": "db"
         }

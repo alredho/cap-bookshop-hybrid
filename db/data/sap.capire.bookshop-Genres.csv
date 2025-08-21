@@ -1,11 +1,20 @@
 ID,parent_ID,name,descr
-18096821,18096821,name-18096821,descr-18096821
-11505369,11505369,name-11505369,descr-11505369
-11505370,11505370,name-11505370,descr-11505370
-11505371,11505371,name-11505371,descr-11505371
-11505372,11505372,name-11505372,descr-11505372
-11505373,11505373,name-11505373,descr-11505373
-11505374,11505374,name-11505374,descr-11505374
-11505375,11505375,name-11505375,descr-11505375
-11505376,11505376,name-11505376,descr-11505376
-11505377,11505377,name-11505377,descr-11505377
+17933010,17933010,Fiction,Stories that describe imaginary events and people
+17933011,17933011,Non-Fiction,Books based on facts and real events
+17933012,17933012,Science Fiction,Speculative stories often set in the future
+17933013,17933013,Fantasy,Books featuring magical worlds and creatures
+17933014,17933014,Mystery,Novels focused on solving a crime or puzzle
+17933015,17933015,Romance,Stories centered on love and relationships
+17933016,17933016,Horror,Books designed to frighten and thrill readers
+17933017,17933017,Biography,Life stories of real people
+17933018,17933018,History,Books about past events and civilizations
+17933019,17933019,Children's Books,Stories written for young readers
+17933020,17933020,Young Adult,Books targeted at teenage audiences
+17933021,17933021,Thriller,Fast-paced stories with suspense and excitement
+17933022,17933022,Adventure,Books featuring journeys and exploration
+17933023,17933023,Poetry,Collections of poems and verse
+17933024,17933024,Self-Help,Books offering advice for personal improvement
+17933025,17933025,Graphic Novel,Stories told through comic art
+17933026,17933026,Classic,Books recognized for lasting literary value
+17933027,17933027,Drama,Serious stories focusing on emotional themes
+17933028,17933028,Travel,Books about journeys and destinations

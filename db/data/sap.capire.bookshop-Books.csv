@@ -1,11 +1,4 @@
-ID,title,descr,author_ID,genre_ID,stock,price,currency_code,createdAt,createdBy,modifiedAt,modifiedBy
-11305958,title-11305958,descr-11305958,8421182,18096821,62,1665936.91,683,2012-03-28T17:00:00.000Z,createdBy.6qbqe@example.org,2018-02-25T17:00:00.000Z,modifiedBy.6qbqe@example.net
-11305959,title-11305959,descr-11305959,8421182,18096821,31,417704.31,683,2008-10-08T17:00:00.000Z,createdBy.6qbqf@example.net,2017-11-21T17:00:00.000Z,modifiedBy.6qbqf@example.com
-11305960,title-11305960,descr-11305960,8421182,18096821,65,6309835.19,683,2001-09-22T17:00:00.000Z,createdBy.6qbqg@example.net,2007-10-14T17:00:00.000Z,modifiedBy.6qbqg@example.net
-11305961,title-11305961,descr-11305961,8421182,18096821,45,4534834.89,683,2012-01-16T17:00:00.000Z,createdBy.6qbqh@example.org,2019-01-11T17:00:00.000Z,modifiedBy.6qbqh@example.net
-11305962,title-11305962,descr-11305962,8421182,18096821,11,4957601.57,683,2010-01-22T17:00:00.000Z,createdBy.6qbqi@example.com,2011-10-03T17:00:00.000Z,modifiedBy.6qbqi@example.net
-11305963,title-11305963,descr-11305963,8421182,18096821,53,5071497.12,683,2004-06-07T17:00:00.000Z,createdBy.6qbqj@example.net,2001-03-13T17:00:00.000Z,modifiedBy.6qbqj@example.org
-11305964,title-11305964,descr-11305964,8421182,18096821,70,4957304.17,683,2007-10-23T17:00:00.000Z,createdBy.6qbqk@example.org,2009-11-06T17:00:00.000Z,modifiedBy.6qbqk@example.net
-11305965,title-11305965,descr-11305965,8421182,18096821,59,9373575.36,683,2015-05-21T17:00:00.000Z,createdBy.6qbql@example.net,2020-03-24T17:00:00.000Z,modifiedBy.6qbql@example.org
-11305966,title-11305966,descr-11305966,8421182,18096821,58,9608882.13,683,2021-04-09T17:00:00.000Z,createdBy.6qbqm@example.net,2010-05-22T17:00:00.000Z,modifiedBy.6qbqm@example.net
-11305967,title-11305967,descr-11305967,8421182,18096821,84,773657.14,683,2004-05-08T17:00:00.000Z,createdBy.6qbqn@example.org,2000-04-06T17:00:00.000Z,modifiedBy.6qbqn@example.org
+ID,title,descr,author_ID,genre_ID,stock,price,currency_code,rating,ISBN,isReviewable,createdAt,createdBy,modifiedAt,modifiedBy
+66928395-6230-4676-8822-f4acc3a9133c,title-The legend of CAP,descr-6692839,15002014-d63b-46f4-a4c0-6b1f0e8bef93,17933028,75,1653507.29,USD,8.1,ISBN-6692839,false,2009-10-03T17:00:00.000Z,createdBy.3zg87@example.org,2008-06-29T17:00:00.000Z,modifiedBy.3zg87@example.org
+e2a1c7b2-8d4f-4c6a-9e2a-1b2c3d4e5f67,title-CAP Bizzare Adventure,descr-e2a1c7b2,16562204-1965-4034-9d25-25853d0522ec,17933028,50,1234567.89,EUR,7.5,ISBN-e2a1c7b2,true,2012-05-12T10:30:00.000Z,createdBy.abcd@example.org,2013-07-21T14:45:00.000Z,modifiedBy.abcd@example.org
+f3b2c1d4-7e8f-4a6b-9c2d-3e4f5a6b7c89,title-Hero CAP and FS Demon Lord,descr-f3b2c1d4,16562213-bc55-4b3f-944d-d1a40b708c4a,17933028,30,987654.32,GBP,9.0,ISBN-f3b2c1d4,false,2015-11-23T08:15:00.000Z,createdBy.wxyz@example.org,2016-01-10T09:20:00.000Z,modifiedBy.wxyz@example.org

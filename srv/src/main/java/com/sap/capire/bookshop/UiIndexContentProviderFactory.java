@@ -1,0 +1,50 @@
+package com.sap.capire.bookshop;
+
+import java.io.PrintWriter;
+
+import com.sap.cds.adapter.IndexContentProvider;
+import com.sap.cds.adapter.IndexContentProviderFactory;
+
+public class UiIndexContentProviderFactory implements IndexContentProviderFactory {
+    @Override
+        public IndexContentProvider create() {
+                return new UiIndexContentProvider();
+        }
+
+        @Override
+        public boolean isEnabled() {
+                return true;
+        }
+
+
+        
+
+        private static class UiIndexContentProvider implements IndexContentProvider {
+
+                private static final String ENDPOINT_START = "" +
+                "                <ul>\n";
+
+                private static final String ENDPOINT = "" +
+                "                    <li>\n" +
+                "                        <a href=\"%s\">%s</a>\n" +
+                "                    </li>\n";
+
+                private static final String ENDPOINT_END = "" +
+                "                </ul>\n";
+
+                @Override
+                public String getSectionTitle() {
+                        return "UI endpoints";
+                }
+
+                @Override
+                public void writeContent(PrintWriter writer, String contextPath) {
+                        writer.print(ENDPOINT_START);
+                        writer.printf(ENDPOINT, contextPath + "/manage-books/webapp/index.html?sap-ui-xx-viewCache=false", "Manage Books");
+                        writer.printf(ENDPOINT, contextPath + "/browse-books/webapp/index.html?sap-ui-xx-viewCache=false", "Browse Books");
+                        writer.print(ENDPOINT_END);
+                }
+        }
+
+        
+}

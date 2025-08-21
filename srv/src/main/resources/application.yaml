@@ -2,6 +2,7 @@
 ---
 spring:
   config.activate.on-profile: default
+  spring.web.resources.static-locations: "file:./app/"
 cds:
   data-source.auto-config.enabled: true
   security:
