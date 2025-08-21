@@ -1,0 +1,28 @@
+{
+  "generationParameters": {
+    "generationDate": "Thu Aug 21 2025 15:29:34 GMT+0700 (Western Indonesia Time)",
+    "generatorPlatform": "Visual Studio Code",
+    "serviceType": "Local CAP",
+    "metadataFilename": "",
+    "serviceUrl": "http://localhost:4004/odata/v4/CatalogService/",
+    "appName": "alpreport",
+    "appTitle": "Analytical List Page",
+    "appDescription": "Analytical List Page",
+    "appNamespace": "",
+    "ui5Theme": "sap_fiori_3_dark",
+    "ui5Version": "1.139.0",
+    "enableCodeAssist": false,
+    "enableEslint": false,
+    "showMockDataInfo": false,
+    "generatorVersion": "1.18.3",
+    "template": "Analytical List Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "OrderItems"
+      }
+    ],
+    "launchText": "To launch the generated app, start your CAP project:  (```mvn spring-boot:run```) and navigate to the following location in your browser:\n\nhttp://localhost:8080/alpreport/webapp/index.html"
+  }
+}

@@ -72,5 +72,5 @@ entity OrderItems : cuid {
   book     : Association to Books  @mandatory  @assert.target;
   quantity : Integer ;
   amount   : Decimal(9, 2);
-  currency : Currency ;
+  currency : Currency @Semantics.currencyCode ;
 }

@@ -10,6 +10,7 @@
   "sapux": [
     "app/books",
     "app/orders",
-    "app/orderitems"
+    "app/orderitems",
+    "app/alpreport"
   ]
 }

@@ -129,6 +129,18 @@
                     "type": "ResponsiveTable"
                   }
                 }
+              },
+              "views": {
+                "paths": [
+                  {
+                    "key": "tableView",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView"
+                  },
+                  {
+                    "key": "chartView",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#chartView"
+                  }
+                ]
               }
             }
           }
@@ -140,9 +152,7 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              
               "contextPath": "/OrderItems"
-              
             }
           }
         }
